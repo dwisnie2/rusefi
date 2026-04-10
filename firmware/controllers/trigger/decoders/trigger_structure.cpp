@@ -807,6 +807,10 @@ void TriggerWaveform::initializeTriggerWaveform(operation_mode_e triggerOperatio
 		initializeRoverK(this);
 		break;
 
+	case trigger_type_e::TT_ROVER_K16:
+		initializeRoverK16(this);
+		break;
+
 	case trigger_type_e::TT_FIAT_IAW_P8:
 		configureFiatIAQ_P8(this);
 		break;
@@ -843,7 +847,6 @@ void TriggerWaveform::initializeTriggerWaveform(operation_mode_e triggerOperatio
 		initializeJeepRenix66_2_2(this);
 		break;
 
-	case trigger_type_e::TT_UNUSED_96:
 	case trigger_type_e::TT_SUBARU_7_6_CRANK:
 		initializeSubaru7_6_crankOnly(this);
 		break;

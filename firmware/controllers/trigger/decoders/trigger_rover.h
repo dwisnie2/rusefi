@@ -11,3 +11,4 @@
 class TriggerWaveform;
 
 void initializeRoverK(TriggerWaveform *s);
+void initializeRoverK16(TriggerWaveform *s);

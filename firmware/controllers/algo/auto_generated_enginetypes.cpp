@@ -369,8 +369,8 @@ const char *getTrigger_type_e(trigger_type_e value) {
 			return "TT_UNUSED";
 		case trigger_type_e::TT_UNUSED_39:
 			return "TT_UNUSED_39";
-		case trigger_type_e::TT_UNUSED_96:
-			return "TT_UNUSED_96";
+		case trigger_type_e::TT_ROVER_K16:
+			return "TT_ROVER_K16";
 		case trigger_type_e::TT_VVT_BARRA_3_PLUS_1:
 			return "TT_VVT_BARRA_3_PLUS_1";
 		case trigger_type_e::TT_VVT_BOSCH_QUICK_START:

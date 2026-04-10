@@ -1626,7 +1626,7 @@ public class VariableRegistryValues {
 	public static final int trigger_type_e_TT_TRI_TACH = 53;
 	public static final int trigger_type_e_TT_UNUSED = 97;
 	public static final int trigger_type_e_TT_UNUSED_95 = 95;
-	public static final int trigger_type_e_TT_UNUSED_96 = 96;
+	public static final int trigger_type_e_TT_ROVER_K16 = 96;
 	public static final int trigger_type_e_TT_VVT_BARRA_3_PLUS_1 = 56;
 	public static final int trigger_type_e_TT_VVT_BOSCH_QUICK_START = 47;
 	public static final int trigger_type_e_TT_VVT_FORD_COYOTE = 4;

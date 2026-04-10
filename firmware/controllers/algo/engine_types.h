@@ -261,7 +261,10 @@ enum class trigger_type_e : uint32_t {
 
 	// we assume this is NOT ready/NOT working? https://github.com/rusefi/rusefi/pull/9262
 	TT_SUZUKI_G16B = 95,
-	TT_UNUSED_96 = 96,
+
+	// MG Rover MEMS3 Common Pattern 2 — 36-slot crank, 4 single missing teeth
+	// Tooth groups: 2-14-3-13, missing at 30/60/210/250° ATDC
+	TT_ROVER_K16 = 96,
 
 	// TL,DR https://github.com/rusefi/rusefi/commit/523805138589585cc8889d6afd9305d120180902 example of new trigger commit
 	//

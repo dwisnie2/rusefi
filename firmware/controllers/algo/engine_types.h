@@ -266,6 +266,9 @@ enum class trigger_type_e : uint32_t {
 	// Tooth groups: 2-14-3-13, missing at 30/60/210/250° ATDC
 	TT_ROVER_K16 = 96,
 
+	// Rover K16 with extra gap[3] check for noise resilience
+	TT_ROVER_K16_V2 = 97,
+
 	// TL,DR https://github.com/rusefi/rusefi/commit/523805138589585cc8889d6afd9305d120180902 example of new trigger commit
 	//
 	// before you add a new trigger: did you have a chance to capture digital signal with a logic analyzer?
@@ -277,7 +280,7 @@ enum class trigger_type_e : uint32_t {
 	//
 	// Another point: once you add a new trigger, run get_trigger_images.bat which would run rusefi_test.exe from unit_tests
 	//
-	TT_UNUSED = 97, // this is used if we want to iterate over all trigger types
+	TT_UNUSED = 98, // this is used if we want to iterate over all trigger types
 };
 
 typedef enum {

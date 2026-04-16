@@ -1,6 +1,6 @@
 #include "global.h"
 #include "engine_types.h"
-// was generated automatically by rusEFI tool  from engine_types.h // by enum_to_string.jar tool on Sat Apr 04 11:57:46 UTC 2026
+// was generated automatically by rusEFI tool  from engine_types.h // by enum_to_string.jar tool on Thu Apr 16 20:47:35 CEST 2026
 // see also gen_config_and_enums.bat
 
 
@@ -331,6 +331,10 @@ const char *getTrigger_type_e(trigger_type_e value) {
 			return "TT_RENIX_66_2_2_2";
 		case trigger_type_e::TT_ROVER_K:
 			return "TT_ROVER_K";
+		case trigger_type_e::TT_ROVER_K16:
+			return "TT_ROVER_K16";
+		case trigger_type_e::TT_ROVER_K16_V2:
+			return "TT_ROVER_K16_V2";
 		case trigger_type_e::TT_SKODA_FAVORIT:
 			return "TT_SKODA_FAVORIT";
 		case trigger_type_e::TT_SUBARU_7_6:
@@ -369,8 +373,6 @@ const char *getTrigger_type_e(trigger_type_e value) {
 			return "TT_UNUSED";
 		case trigger_type_e::TT_UNUSED_39:
 			return "TT_UNUSED_39";
-		case trigger_type_e::TT_ROVER_K16:
-			return "TT_ROVER_K16";
 		case trigger_type_e::TT_VVT_BARRA_3_PLUS_1:
 			return "TT_VVT_BARRA_3_PLUS_1";
 		case trigger_type_e::TT_VVT_BOSCH_QUICK_START:
